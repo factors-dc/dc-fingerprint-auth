@@ -1,0 +1,18 @@
+### emulator-5558 Android 16 (API 36)
+Success
+== 1.5.0
+avail                  {"ok":{"isAvailable":true,"isHardwareDetected":true,"hasEnrolledFingerprints":true}}
+encrypt                {"ok":{"withFingerprint":true,"token":"uKsDow1WEpx1c9eo6zsOjyC95V0IHy0KPv/BryPx/PM="}}
+decrypt                {"ok":{"withFingerprint":true,"password":"{\"pin\":\"1234\"}"}}
+== upgrade to fork (same data)
+Success
+avail                  {"ok":{"isAvailable":true,"isHardwareDetected":true,"hasEnrolledFingerprints":true,"biometricStatus":0}}
+decrypt                {"ok":{"withFingerprint":true,"password":"{\"pin\":\"1234\"}"}}
+== fork full run
+avail                  {"ok":{"isAvailable":true,"isHardwareDetected":true,"hasEnrolledFingerprints":true,"biometricStatus":0}}
+encrypt                {"ok":{"withFingerprint":true,"token":"blL6PUVwXqeUkl2uPOP75SFTg7ozNo/hwtY0IY1tjEo="}}
+decrypt                {"ok":{"withFingerprint":true,"password":"{\"pin\":\"1234\"}"}}
+cancel-encrypt         {"err":"FINGERPRINT_CANCELLED"}
+decrypt                {"ok":{"withFingerprint":true,"password":"{\"pin\":\"1234\"}"}}
+delete                 {"ok":"OK"}
+decrypt-after-delete   {"err":"INIT_CIPHER_FAILED"}

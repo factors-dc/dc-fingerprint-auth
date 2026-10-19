@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fpauth_title">Biometrisk autentisering</string>
+    <string name="fpauth_cancel">Avbryt</string>
+</resources>
